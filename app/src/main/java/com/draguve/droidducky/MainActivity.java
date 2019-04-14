@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity
                 return true;
 
             case R.id.source_code:
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.repo)));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kimocoder/droidducky-app"));
                 startActivity(browserIntent);
 
             default:
